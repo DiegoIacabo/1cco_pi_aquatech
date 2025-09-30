@@ -1,0 +1,140 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+/* Configuração universal para todo o projeto, aplicado em tudo */
+* {
+    box-sizing: border-box;
+}
+
+/* Configuração da tag body do HTML */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Configuração da classe 'header' */
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+/* Estilização exclusiva da classe 'container' que está dentro da classe 'header' */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* O primeiro valor é referente a vertical e o segundo é na horizontal */
+    padding: 0 120px;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    /* Tira a estilização padrão da lista (bolinha antes da palavra)*/
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+
+}
+
+/* Configuração da tag 'a' dentro da navbar */
+.navbar a {
+    color: #e3b062;
+    outline: none;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+}
+
+.banner .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    width: 170px;
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.banner .container span {
+    font-weight: bolder;
+}
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box img {
+    width: 120px;
+    height: 120px;
+}
+
+.box h4 {
+    margin: 0;
+    margin-top: 10px;
+    color: #ed145b;
+}
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.footer h4 {
+    margin-bottom: 0;
+}
+
+/* Aqui termina o index.html */
